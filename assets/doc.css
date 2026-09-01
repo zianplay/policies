@@ -17,9 +17,8 @@
   --table-head: #f2f1ec;
   --table-zebra: #faf9f6;
 
-  --serif: "Nanum Myeongjo", "Noto Serif KR", Georgia, "Times New Roman", serif;
   --sans: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+    "Helvetica Neue", Arial, "Malgun Gothic", sans-serif;
 
   --measure: 46rem;
 }
@@ -78,7 +77,7 @@ a:hover { color: var(--link-hover); }
 }
 
 .wordmark {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--ink);
@@ -116,7 +115,7 @@ main.doc {
 }
 
 main.doc h1 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 800;
   font-size: 1.72rem;
   line-height: 1.35;
@@ -135,7 +134,7 @@ main.doc h1 {
 }
 
 main.doc h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.4;
@@ -145,7 +144,7 @@ main.doc h2 {
 }
 
 main.doc h3 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 700;
   font-size: 1.03rem;
   margin: 30px 0 10px;
@@ -218,7 +217,7 @@ tbody tr:last-child td { border-bottom: 0; }
   padding: 40px 24px 8px;
 }
 .hub h1 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 800;
   font-size: 1.6rem;
   margin: 0 0 8px;
@@ -237,7 +236,7 @@ tbody tr:last-child td { border-bottom: 0; }
 }
 .app-card:hover { border-color: var(--muted); }
 .app-card h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.15rem;
   margin: 0 0 4px;
 }
